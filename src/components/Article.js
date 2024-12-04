@@ -28,7 +28,7 @@ const Article = () => {
       <div className="row">
         <div className="col-12">
           <p>
-            Content goes here... Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Content goes here... Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>

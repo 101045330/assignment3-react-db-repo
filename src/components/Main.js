@@ -1,5 +1,6 @@
 import React from 'react'
 import Article from './Article'
+import Sidebar from './Sidebar'
 
 const Main = () => {
   return (
@@ -14,7 +15,7 @@ const Main = () => {
 
         {/* Form (30%) */}
         <section className="col-md-4 col-12">
-          <FeedbackForm />
+          <Sidebar />
         </section>
       </div>
     </main>
