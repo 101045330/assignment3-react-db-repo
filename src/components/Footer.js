@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="row">
         {/* Copyright (60%) */}
         <section className="col-md-7 col-12">
-          <p>&copy; 2024 Your Company. All rights reserved.</p>
+          <p>&copy; 2024  <u>S</u>ome <u>R</u>ights <u>P</u>reserved.</p>
         </section>
 
         {/* UL Li A (40%) */}
@@ -17,6 +17,10 @@ const Footer = () => {
           </ul>
         </section>
       </div>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     </footer>
   );
 }
